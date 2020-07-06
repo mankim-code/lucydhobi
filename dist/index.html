@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0b156ad029.js" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="style.css">
@@ -16,21 +17,26 @@
                     <button class="menu-btn">🞬</button>
                   <li> 
                     <!-- link one -->
-                    <a href="#aboutMe"> About Me </a>
+                    <a href="#overview"> Overview </a>
                   </li>
                   <li>
                     <!-- link two -->
-                     <a href="#projects"> Projects </a>
+                     <a href="#about"> About </a>
                   </li>
                   <li>
                     <!-- link three -->
-                    <a href="#cv"> CV </a>
+                    <a href="#c-study"> Case study </a>
                   </li>
                   <li>
                     <!-- link four -->
-                    <a href="#contacts"> Contacts </a>
+                    <a href="#videos"> Videos </a>
+                  </li>
+                  <li>
+                    <!-- link four -->
+                    <a href="#contact"> Contact </a>
                   </li>
                 </ul>
+               <img src="/dist/images/lucy-dhobi-logo.png" alt="Lucy dhobi logo" srcset="">
               </nav>
             
         </div>
@@ -39,7 +45,7 @@
     
 
     <!--start of overview section-->
-    <section>
+    <section id="Overview">
         <div class="section-main">
             <div>
                 <h1>
@@ -56,10 +62,10 @@
     <!--end of overview section-->
 
     <!--start of about section-->
-    <section>
+    <section id="about">
         <div class="about-me">
             <div class="img-about">
-                <img src="/images/lUCY-DDOBI-BLOB.png" alt="lucy profile picture">
+                <img src="/dist/images/lUCY-DDOBI-BLOB.png" alt="lucy profile picture">
             </div>
             <div class="content-about">
                 <p>My name is Lucy Gatimu, I love doing laundry and house cleaning services.I wash,dry and iron your clothes.</p>
@@ -69,22 +75,22 @@
 
     <section>
         <div class="about-values">
-            <div class="about-icons" id="about-se-icons">
-                <img src="/images/reliable-icon.png" alt="icon-representing-reliable">
+            <div class="about-icons" >
+                <img src="/dist/images/icon-reliable-transparent.png" alt="icon-representing-reliable">
                 <div class="icons-p">
                    <p>Reliable</p>
                 </div>
             </div>
 
-            <div class="about-icons" id="about-se-icons">
-                <img src="/images/Affordable_Pricing-512.png" alt="icon-representing-affordable">
+            <div class="about-icons special-icon" >
+                <img src="/dist/images/icon-affordable-transparent.png" alt="icon-representing-affordable">
                 <div class="icons-p">
                     <p>Affordable</p>
                 </div>
             </div>
 
-            <div class="about-icons" id="about-se-icons">
-                <img src="/images/performance-efficiency-icon.png" alt="icon-representing-efficiency">
+            <div class="about-icons" >
+                <img src="/dist/images/icon-efficient-transparent.png" alt="icon-representing-efficiency">
                 <div class="icons-p">
                     <p>Efficient</p>
                 </div>
@@ -95,7 +101,7 @@
 <!--end of of about section-->
     
 <!--start of portfolio section-->
-<section>
+<section id="c-study">
     <div class="portfolio-section">
             <div class="portfolio-content">
                 <blockquote class="twitter-tweet tw-align-center" data-theme="dark">
@@ -121,7 +127,7 @@
 <!--end of portfolio section-->
 
 <!--start of video section-->
-<section>
+<section id="videos">
     <div class="video-section">
         
          
@@ -145,24 +151,28 @@
 
 
 <!--start of contact section-->
-<div class="contact-section">
-    <div>
-        <h2>book now</h2>
-    </div>
-
-    <div class="contact-button">
-        <h3>Contact me</h3>
-        <ul>
-            <li>
+<section id="contact">
+    <div class="contact-section">
+        <div>
+            <h2>book now</h2>
+        </div>
+    
+        <div class="contact-button">
+            <div class="contact-me">
+                <h3>Contact me</h3>
                 <a href="tel:+25476198670"><i class="fas fa-phone-volume fa-3x"></i></a>
-            </li>
-        <h3>Follow</h3>
-            <li>
+
+                <h3>Follow me</h3>
                 <a href="https://twitter.com/LucyGatimu3"><i class="fab fa-twitter fa-3x"></i></i></a>
-            </li>
-        </ul>
-   </div>
-</div>
+
+            </div>
+            
+                
+            </div>
+    
+       </div>
+    </div>
+</section>
 <!--end of contact section-->
 
 <!--start of footer section-->
@@ -175,7 +185,7 @@
     </div>
 </footer>
 <!--end of footer section-->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $(document.querySelector('button')).ready(function(){
   
@@ -190,8 +200,6 @@
     $("li").toggle("slow");
   });  
 });
-
-
 </script>
 </body>
 </html>
