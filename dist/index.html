@@ -12,7 +12,7 @@
 <body>
     <!--start of navbar-->
         <div>
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <button class="menu-btn">🞬</button>
                   <li> 
@@ -200,6 +200,21 @@
     $("li").toggle("slow");
   });  
 });
+/*
+window.onscroll = funtion() { fixedNav()
+let navbar = document.getElementById("navbar");
+let sticky = navbar.offsetTop;
+
+function FixedNav() {
+  if (window.pageYOffset >= sticky){
+    navbar.classList.add("sticky")
+  }
+  else {
+    navbar.classList.remove("sticky")
+  }
+}
+};
+*/
 </script>
 </body>
 </html>
