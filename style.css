@@ -135,7 +135,7 @@
         box-shadow: inset 220px 250px 230px #000000b7, inset -220px -250px 230px #000000e5;
         /*background-blend-mode: overlay;*/
         opacity: 0.9;
-        background: url("/images/lucy-dhobi-banner.png") no-repeat center/cover;
+        background: url("images/lucy-dhobi-banner.png") no-repeat center/cover;
     }
     
     /*start of about section part 1*/
