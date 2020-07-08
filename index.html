@@ -10,36 +10,69 @@
     <title>Lucy Dhobi | laundry & cleaning services</title>
 </head>
 <body>
+    <header>
+        <nav class='cf'>
+            <ul class='cf'>
+              <li>
+                <a href='#overview'>Overview</a>
+              </li>
+              <li>
+                <a href='#about'>Chatbot</a>
+              </li>
+              <li>
+                <a href='#website'>Website</a>
+              </li>
+              <li>
+                <a href='#c-study'>Portfolio</a>
+              </li>
+              <li>
+                <a href='#videos'>Blog</a>
+              </li>
+              <li>
+                <a href='#contact'>Plans</a>
+              </li>
+            </ul>
+            <a href='#' id='openup'>Lucy dhobi</a>
+          </nav>
+    </header>
+
+
+
+
+
+
+
+
     <!--start of navbar-->
-        <div>
-            <nav id="navbar">
+       <div>
+             <!--<nav id="navbar">
                 <ul>
                     <button class="menu-btn">🞬</button>
                   <li> 
-                    <!-- link one -->
+                   
                     <a href="#overview"> Overview </a>
                   </li>
                   <li>
-                    <!-- link two -->
+                    
                      <a href="#about"> About </a>
                   </li>
                   <li>
-                    <!-- link three -->
+                    
                     <a href="#c-study"> Case study </a>
                   </li>
                   <li>
-                    <!-- link four -->
+                   
                     <a href="#videos"> Videos </a>
                   </li>
                   <li>
-                    <!-- link four -->
+                    
                     <a href="#contact"> Contact </a>
                   </li>
                 </ul>
                <img src="images/lucy-dhobi-logo.png" alt="Lucy dhobi logo" srcset="">
               </nav>
             
-        </div>
+        </div>-->
     <!--end of navbar-->
 
     
@@ -186,35 +219,7 @@
 </footer>
 <!--end of footer section-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-  $(document.querySelector('button')).ready(function(){
-  
-  $("button").click(function(){
+<script src="main.js"></script>
 
-    if($("button").text() == "☰"){
-      $("button").text("🞬");
-    }else{
-      $("button").text("☰");
-    }
-    
-    $("li").toggle("slow");
-  });  
-});
-/*
-window.onscroll = funtion() { fixedNav()
-let navbar = document.getElementById("navbar");
-let sticky = navbar.offsetTop;
-
-function FixedNav() {
-  if (window.pageYOffset >= sticky){
-    navbar.classList.add("sticky")
-  }
-  else {
-    navbar.classList.remove("sticky")
-  }
-}
-};
-*/
-</script>
 </body>
 </html>
