@@ -49,10 +49,13 @@
         h1 {
           font-size: 2.8em;
         }
-      
+      header {
+         width: 100vw; 
+      }
         nav {
           height: auto;
           border-bottom: 0;
+          
         }
         nav ul {
           display: none;
@@ -107,6 +110,7 @@
       
       .cf {
         zoom: 1;
+        width: 100vw;
       }
     /*End Navigation*/
     /*banner section*/
