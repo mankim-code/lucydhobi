@@ -3,6 +3,7 @@
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box; 
     }
     
     body{
@@ -87,8 +88,8 @@
           height: 30px;
           display: inline-block;
           position: absolute;
-          right: 5px;
-          top: 20px;
+          right: 8px;
+          top: 22px;
         }
         nav a#openup {
           display: block;
@@ -111,6 +112,7 @@
       .cf {
         zoom: 1;
         width: 100vw;
+        
       }
     /*End Navigation*/
     /*banner section*/
@@ -167,7 +169,7 @@
         height: 100%;
         z-index: -3;
         background-size: cover;
-        box-shadow: inset 220px 220px 220px #000000b7, inset -220px -220px -220px #000000e5;
+        box-shadow: inset 260px 260px 260px #000000b7, inset -260px -260px -260px #000000e5;
         /*background-blend-mode: overlay;*/
         opacity: 0.9;
         background: url("images/lucy-dhobi-banner.png") no-repeat center/cover;
